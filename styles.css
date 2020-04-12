@@ -1,0 +1,98 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  background-color: white;
+  color: black;
+}
+
+#poli:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+#perfil:hover {
+  filter: grayscale(100%);
+}
+
+#perfil:hover {
+  transform: scale(1.2);
+}
+
+#perfil2:hover {
+  transform: scale(1.2);
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+body {
+  margin: 0;
+}
+.fondo {
+  background-color: #3F454E;
+  padding-top: 2.5cm;
+}
+.titulo{
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3.8em;
+  background-image: linear-gradient(to right, #008275 , #003B35);
+}
+.tabla{
+  /* derecha abajo blur color*/
+  box-shadow: 0.75em 0.75em 0.3em #33373E;
+  margin: auto;
+  width: 65%;
+  text-align: center;
+  border: 2px solid #E7E7E7;
+  border-collapse: collapse;
+}
+.tabla th{
+  color: red;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.tabla tr:first-child{
+  border-bottom: 0.3em solid #3F454E;
+}
+
+.tabla td {
+  padding: 10px;
+  text-align: left;
+  font-size: 1.5em;
+}
+.tabla td:last-child{
+  text-align: right;
+}
+
+.tabla tr:nth-child(even) {
+  background-color: #E7E7E7;
+}
+.tabla tr:nth-child(odd) {
+  background-color: white;
+}
+.izq{
+  display: block;
+  margin-right: 0px;
+  margin-left: auto;
+  width: 50%;
+
+}
